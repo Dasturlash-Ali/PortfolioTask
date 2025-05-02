@@ -1,0 +1,75 @@
+.hero {
+    h2 {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins';
+        font-size: 64px;
+        font-weight: 700;
+    }
+    
+    .bigStarIcon {
+        position: absolute;
+        top: 50px;
+        left: 98%;
+        width: 104px;
+        height: 104px;
+        transform: translateX(-50%);
+    }
+
+    .home-p-img {
+        display: flex;
+        align-items: center;
+        margin-top: -60px;
+    
+        p {
+            font-size: 14px;
+            color: #00000099;
+        }
+        
+        img {
+            display: flex;
+            width: 56px;
+            height: 56px;
+            margin-left: 105px;
+        }
+    }
+
+    .shop-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        width: 180px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 60px;
+        border: none;
+        gap: 12px;
+        color: aliceblue;
+        background-color: black;
+    }
+
+    .nomeric-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 48px;
+
+        .nomeric {
+            width: 200px;
+
+            h3 {
+                font-size: 40px;
+                font-weight: 500px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-top: -35px;
+                color: #00000099;
+            }
+        }
+    }
+}
+
+

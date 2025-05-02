@@ -11,6 +11,10 @@
     transform: translateY(-20px);
     animation: showFragment 1s forwards;
 
+    a {
+        color: white;
+    }
+
     .clear-btn {
         font-size: 24px;
         position: absolute;
@@ -83,65 +87,3 @@
         font-size: 28px;
     }
 }
-
-// @media (max-width: 768px) {
-//     .navbar-wrapper {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-between;  // h3 va burgerni joylashtirish uchun
-//         align-items: center;
-//         position: relative;
-
-//     h3 {
-//         font-size: 25px;
-//         margin-right: 16px; // h3 va burger orasida 16px joy
-//     }
-
-//     .content-ul {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         width: 24px; // burger chizig‘i o‘lchami
-//         height: 24px;
-//         position: absolute;
-//         top: 54px;
-//         left: 16px;
-//         cursor: pointer;
-
-//         span {
-//             display: block;
-//             height: 3px;
-//             background-color: #333;
-//             border-radius: 2px;
-//             margin: 4px 0; // har bir chiziq orasiga masofa
-//         }
-//     }
-
-//     .search-input {
-//         position: absolute;
-//         top: 10px;
-//         right: 16px;
-//         width: 100%;
-//         font-size: 20px;
-
-//         input {
-//             font-size: 14px;
-//         }
-//     }
-
-//     .card-and-profile-icons {
-//         font-size: 24px;
-//         display: flex;
-//         gap: 10px;
-
-//         .icon {
-//           width: 24px;
-//           height: 24px;
-//           display: flex;
-//           justify-content: center;
-//           align-items: center;
-//           cursor: pointer;
-//         }
-//     }
-//   }
-// }

@@ -1,0 +1,31 @@
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+
+    p {
+        align-items: center;
+        font-size: 50px;
+    }
+
+    .versace {
+        font-family: 'Times New Roman', sans-serif;
+    }
+
+    .zara {
+        font-family: 'Bodoni';
+    }
+
+    .gucci {
+        font-family: 'Rosarivo';
+    }
+
+    .parada {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .calvin {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
