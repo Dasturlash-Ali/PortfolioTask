@@ -1,0 +1,89 @@
+.new-arrivals-item {
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        font-weight: 1000;
+        margin-top: 72px;
+    }
+}
+
+.item-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .raiting {
+            font-size: 14px;
+        }
+
+        .price {
+            font-weight: 700;
+            font-size: 24px;
+
+            span {
+                text-decoration: line-through;
+                align-items: center;
+                color: #00000066;
+            }
+
+            .disc {
+                position: absolute;
+                text-align: center;
+                line-height: 28px;
+                font-weight: 500;
+                // justify-content: center;
+                // align-items: center;
+                width: 58px;
+                height: 28px;
+                margin-left: 14px;
+                background-color: #FF33331A;
+                border-radius: 62px;
+                text-decoration: none;
+                font-size: 12px;
+                color: #FF3333;
+            }
+        }
+        
+        .stars {
+            display: flex;
+            align-items: center;
+            margin-top: -20px;
+
+            .star-icon {
+                color: yellow;
+            }
+
+            p {
+                margin-left: 13px;
+            }
+        }
+    }
+
+    button {
+        width: 218px;
+        height: 52px;
+        margin-top: 52px;
+        font-size: 16px;
+        border: 1px solid #0000001A;
+        border-radius: 62px;
+        background-color: white;
+    }
+}
+
+hr {
+    margin-top: 64px;
+    color: #0000001A;
+}

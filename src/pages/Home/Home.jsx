@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './Home.scss';
 import VectorImg from '../../assets/Vector.svg'
 import BrandsAd from './BrandsAd';
+import NewArrivals from './NewArrivals';
 
 function Home() {
   return (
+    <Fragment>
+
     <div className='hero'>
       <div className='container'>
         <h2>
@@ -22,7 +25,7 @@ function Home() {
         
         <button className='shop-btn'>Shop Now</button>
 
-        <table className='nomeric-wrapper'>
+        <div className='nomeric-wrapper'>
           <div className='nomeric'>
             <h3>200+</h3>
             <p>International Brands</p>
@@ -35,12 +38,14 @@ function Home() {
             <h3>30,000+</h3>
             <p>Happy Customers</p>
           </div>
-        </table>
+        </div>
       </div>
       <div>
         <BrandsAd />
       </div>
     </div>
+        <NewArrivals/>
+    </Fragment>
   )
 }
 
