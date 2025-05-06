@@ -3,6 +3,8 @@ import './Home.scss';
 import VectorImg from '../../assets/Vector.svg'
 import BrandsAd from './BrandsAd';
 import NewArrivals from './NewArrivals';
+import TopSelling from './TopSelling';
+import ByDress from './ByDress';
 
 function Home() {
   return (
@@ -44,7 +46,9 @@ function Home() {
         <BrandsAd />
       </div>
     </div>
-        <NewArrivals/>
+        <NewArrivals />
+        <TopSelling />
+        <ByDress />
     </Fragment>
   )
 }
