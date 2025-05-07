@@ -29,6 +29,8 @@
 }
 
 .coments {
+    margin-bottom: 250px;
+
     .customers {
         display: flex;
         justify-content: space-between;
@@ -48,20 +50,30 @@
         }
     }
 
-    .coment-wrapper {
+    .our-happy {
         display: flex;
-        width: 400px;
-        height: 200px;
-        border: 1px solid #0000001A;
-        border-radius: 20px;
-        padding: 30px;
+        gap: 20px;
 
-        .stars {
-            .star-icon{
-                width: 24px;
-                height: 24px;
-                gap: 10px;
-                color: yellow;
+        .coment-wrapper {
+            display: flex;
+            width: 400px;
+            height: 200px;
+            border: 1px solid #0000001A;
+            border-radius: 20px;
+            padding: 30px;
+    
+            .stars { 
+                .star-icon{
+                    width: 24px;
+                    height: 24px;
+                    gap: 10px;
+                    color: yellow;
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                }
             }
         }
     }
